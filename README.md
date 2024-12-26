@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# QR Code Component
 
-## Getting Started
+This project is a frontend challenge built with Next.js, TypeScript, and Sass, focusing on creating a responsive QR code component. It demonstrates how to implement a clean design and functionality, allowing users to scan the QR code and be redirected to a link. The project highlights the use of modern web technologies for creating interactive and accessible UI components.
 
-First, run the development server:
+For more details, visit [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Installation Steps](#installation-steps)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### The challenge
 
-## Learn More
+The goal of this project was to build a QR code component using Next.js, TypeScript, and Sass. The challenge focused on creating a visually appealing, responsive, and functional component that allows users to scan the QR code and access a specified link. Key objectives included adhering to modern web development practices and ensuring that the component was both accessible and user-friendly across different devices and screen sizes.
 
-To learn more about Next.js, take a look at the following resources:
+### Screenshot
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Phone Device (375px)
+  ![](./phone.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Desktop Device (1440px)
+  ![](./desktop.png)
 
-## Deploy on Vercel
+_If the images are not visible, please check the file path or ensure the screenshots exists._
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Live Site](https://qr-code-component-navy-chi.vercel.app/) - View the live version of the QR Code Component.
+
+## My process
+
+### Built with
+
+- Mobile-first workflow
+- [Sass](https://nextjs.org/docs/app/building-your-application/styling/sass) - Sass for styling
+- [React](https://reactjs.org/) - TS library
+- [Next.js](https://nextjs.org/) - React framework
+
+### Installation Steps
+
+#### 1. Clone the repository (if you haven't already)
+
+    git clone git@github.com:nmelissarp/qr-code-component.git
+
+#### 2. Navigate to the project folder
+
+    cd qr-code-component
+
+#### 3. Install dependencies
+
+    npm install
+
+#### 4. Run the development server
+
+    npm run dev
+
+#### 5. Verify the application Open your browser and navigate to http://localhost:3000 to ensure everything is working as expected.
+
+### Useful resources
+
+- [Next.js Documentation: Installation](https://nextjs.org/docs/app/getting-started/installation) - This resource provides a detailed guide on how to set up Next.js in your development environment, covering installation and configuration to get your project started.
+
+- [Next.js Sass Styling Guide](https://nextjs.org/docs/app/building-your-application/styling/sass) - This guide explains how to integrate Sass into a Next.js project for styling, offering a streamlined approach to using advanced CSS techniques like variables and mixins.
+
+## Author
+
+- [Melissa Ramírez](https://www.linkedin.com/in/nmelissarp/) - Developer and enthusiast of web development, always learning and experimenting with new technologies.
